@@ -1,0 +1,30 @@
+body{
+    background-image: url(./assets/images/bg.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.list{
+    width: 100%;
+    padding: 0px;
+    margin: 1%;
+}
+.list:after{content:'';clear:both;margin:20px 0px;display:block;}
+.link{
+    height:40px;
+}
+.link a{
+    float: right;
+    font-family: microsoft yahei;
+    padding: 10px 10px;
+    color: white;
+    font-size: 15px;
+    text-shadow: 3px 3px 4px black;
+}
+.loadMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 1px; 
+  color: #d0d0d0;
+}
