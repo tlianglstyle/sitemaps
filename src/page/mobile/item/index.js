@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Button, Icon, Flex, WhiteSpace } from 'antd-mobile';
-import styles from './Item.css';
+import styles from './style.scss';
 
-class App extends Component {
+export default class index extends Component {
   render() {
     return (
       <div className={styles.list} onClick={()=>{window.location.href=this.props.href}}>
@@ -21,5 +20,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

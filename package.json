@@ -1,24 +1,54 @@
 {
-  "name": "sitemaps",
+  "name": "react",
   "version": "1.0.0",
-  "private": true,
-  "homepage":".",
-  "dependencies": {
-    "antd-mobile": "^2.0.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server  --mode development --devtool inline-source-map --hot --config=webpack.config.js",
+    "build": "cross-env NODE_ENV=prod webpack --mode production",
+    "start": "node www.js"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "babel-plugin-import": "^1.2.0",
-    "less": "^2.7.3",
-    "less-loader": "^4.0.5",
-    "react-app-rewired": "^1.2.9"
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "antd-mobile": "^2.2.6",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.6.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "antd-mobile": "^2.2.6",
+    "bulma": "^0.7.1",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "fastclick": "^1.0.6",
+    "html2canvas": "^1.0.0-alpha.12",
+    "opn": "^5.4.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
   }
 }
