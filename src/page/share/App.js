@@ -25,7 +25,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<div className={styles.home} id="container">
-				<p>111</p>
+				<p>1111</p>
 			</div>
 		);
 	}
