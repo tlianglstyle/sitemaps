@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import "@assets/css/index.scss";
+import "@assets/css/index.less";
 import FastClick from 'fastclick';
 import '@utils/setRem';
 

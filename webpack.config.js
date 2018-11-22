@@ -57,12 +57,12 @@ module.exports = (env, argv) => ({
 				]
 			},
 			{
-				test: /\.css$/,
+				test: /\.less$/,
 				exclude: /node_modules\/antd-mobile/,
 				use: [
 						argv.mode == "development" ? { loader: "style-loader"} :MiniCssExtractPlugin.loader,
 							{ loader: "css-loader", options: {modules: true,importLoaders: 1,localIdentName: '[local]___[hash:base64:5]'} },
-							{ loader: "sass-loader", options: { sourceMap: true } }
+							{ loader: "less-loader", options: { sourceMap: true } }
 				]
 			},
 			// {
@@ -71,7 +71,7 @@ module.exports = (env, argv) => ({
 			// 	use: [
 			// 		argv.mode == "development" ? { loader: "style-loader"} :MiniCssExtractPlugin.loader,
 			// 		{ loader: "css-loader", options: {modules: true,importLoaders: 1,localIdentName: '[local]___[hash:base64:5]'} },
-			// 		{ loader: "sass-loader", options: { sourceMap: true } }
+			// 		{ loader: "less-loader", options: { sourceMap: true } }
 			// 	]
 			// },
 			{
@@ -80,7 +80,7 @@ module.exports = (env, argv) => ({
 				use: [
 					argv.mode == "development" ? { loader: "style-loader"} :MiniCssExtractPlugin.loader,
 					{ loader: "css-loader", options: {modules: true,importLoaders: 1,localIdentName: '[local]___[hash:base64:5]'} },
-					{ loader: "sass-loader", options: { sourceMap: true } }
+					{ loader: "less-loader", options: { sourceMap: true } }
 				]
 			},
 			{//TODO:分目录拷贝文件

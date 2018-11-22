@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, WhiteSpace } from 'antd-mobile';
 import Item from './item/index';
-import styles from './App.scss';
+import styles from './App.less';
 const data =[
   {title:'亚马逊' , src: require('./static/images/img_19.jpg') , href:'../../amazon-logistics/index.html' },
   {title:'众人添财' , src: require('./static/images/img_21.jpg') , href:'../../tc/index.html' },

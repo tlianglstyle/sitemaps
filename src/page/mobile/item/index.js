@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './style.scss';
+import styles from './style.less';
 
 export default class index extends Component {
   render() {

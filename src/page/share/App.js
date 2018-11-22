@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button, List, Icon } from 'antd-mobile';
 import html2canvas from "html2canvas";
-import styles from "./App.scss"
+import styles from "./App.less"
 
 export default class App extends Component {
 	constructor(props){
