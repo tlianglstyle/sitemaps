@@ -3,12 +3,12 @@ import { Button, WhiteSpace } from 'antd-mobile';
 import Item from './item/index';
 import styles from './App.less';
 const data =[
-  {title:'亚马逊' , src: require('./static/images/img_19.jpg') , href:'../../amazon-logistics/index.html' },
-  {title:'众人添财' , src: require('./static/images/img_21.jpg') , href:'../../tc/index.html' },
+  {title:'亚马逊' , src: require('./static/images/img_19.jpg') , href:'../../../amazon-logistics/index.html' },
+  {title:'众人添财' , src: require('./static/images/img_21.jpg') , href:'../../../tc/index.html' },
   {title:'叮当加速度，元宵送祝福！' , src: require('./static/images/img_17.jpg') , href:'http://mobile.lenovo-idea.com/2015/offline/lanternfestival/' },
-  {title:'让爱传递,她的达芬奇密码' , src: require('./static/images/img_18.jpg') , href:'../../women/index.html' },
+  {title:'让爱传递,她的达芬奇密码' , src: require('./static/images/img_18.jpg') , href:'../../../women/index.html' },
   {title:'厨房巅峰挑战赛' , src: require('./static/images/img_20.jpg') , href:'http://mobile.lenovo-idea.com/2015/offline/cooking/' },
-  {title:'联想小新笔记本' , src: require('./static/images/img_22.jpg') , href:'../../telday/index.html' },
+  {title:'联想小新笔记本' , src: require('./static/images/img_22.jpg') , href:'../../../telday/index.html' },
   {title:'360全景图' , src: require('./static/images/img_test1.jpg') , href:'http://mobile.lenovo-idea.com/2015/test/360outer/' },
   {title:'联想大客户 电信日' , src: require('./static/images/img_23.jpg') , href:'http://mobile.lenovo-idea.com/2015/telecomday/' },
   {title:'联想高考祈福H5' , src: require('./static/images/img_24.jpg') , href:'http://mobile.lenovo-idea.com/2015/bless/' },

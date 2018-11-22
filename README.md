@@ -25,5 +25,6 @@ npm start
         |-- pageName/
             |-- index.js
             |-- pageinfo.json
+```
 
 sitemaps: [sitemaps](http://47.105.62.221/sitemaps/dist/mobile/index.html)
